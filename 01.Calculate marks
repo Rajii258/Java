@@ -1,0 +1,26 @@
+John wants to know how to calculate the subject marks.could you please help him to learn marks calculation in programming.
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String s=sc.next();
+        int a,b,c,d,e,tot;
+        a=sc.nextInt();
+        b=sc.nextInt();
+        c=sc.nextInt();
+        d=sc.nextInt();
+        e=sc.nextInt();
+        tot=a+b+c+d+e;
+        System.out.println("Name of the Student:"+s);
+        System.out.println("Total marks:"+tot);
+        System.out.println("Average marks:"+(tot/(float)5));
+    }
+}
+
